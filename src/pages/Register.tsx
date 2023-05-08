@@ -33,7 +33,7 @@ const Register: React.FC = () => {
     e.preventDefault();
     const newRegisterUser: UsersType = { name: userName, email: userEmail, password: userPassword };
     dispatch(registerUser(newRegisterUser));
-    navigate('/login');
+    navigate('/');
   };
 
   return (
